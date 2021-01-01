@@ -10,12 +10,12 @@
             "exit": "終了"
         },
 		"theme": {
-            "title": "Use Theme",
-            "desc": "Press OK to quit Tinwoo or Cancel to continue.\n\nThemes will activate the next time you start Tinwoo."
+            "title": "テーマを使用する",
+            "desc": "OKを押してTinwooを終了するか、キャンセルを押して続行します。\n\nテーマは、次にTinwooを起動したときにアクティブになります。"
 		},
 		"hdd": {
 			"title": "USB HDD",
-			"notfound": "USB HDD is not connected."
+			"notfound": "USB HDDが接続されていません。"
 		},
         "net": {
             "title": "ネットワーク接続は利用できません",
@@ -81,15 +81,15 @@
         },
         "hd": {
             "help": {
-                "title": "Help",
-                "desc": "Copy your NSP, NSZ, XCI, or XCZ files to your hard drive, browse to and\nselect the ones you want to install, then press the Plus button."
+                "title": "ヘルプ",
+                "desc": "NSP、NSZ、XCI、またはXCZファイルをハードドライブにコピーし、\nsインストールするファイルを参照して選択し、＋ボタンを押します。"
             },
-            "top_info": "Select the files you want to install, then press the Plus button!",
-            "source_string": " from hard drive",
-            "delete_info": " installed\nDelete it from the hard drive?",
-            "delete_info_multi": " files installed successfully!\nDelete them from the hard drive?",
-            "delete_desc": "The original files aren't needed anymore after they've been installed",
-            "buttons": "\ue0e0 Select File    \ue0e3 Select All    \ue0ef Install File(s)    \ue0e2 Help    \ue0e1 Cancel"
+            "top_info": "インストールするファイルを選択し、＋ボタンを押してください！",
+            "source_string": " HDDから",
+            "delete_info": " インストール完了！\nHDDから削除しますか?",
+            "delete_info_multi": " インストール完了！\nHDDから削除しますか?",
+            "delete_desc": "インストール後、元のファイルは不要になります",
+            "buttons": "\ue0e0 ファイルを選択    \ue0e3 すべて選択    \ue0ef ファイルをインストール    \ue0e2 ヘルプ    \ue0e1 キャンセル"
         },
         "usb": {
             "help": {
@@ -98,7 +98,7 @@
             },
             "top_info": "USB接続に成功しました！ファイルのリストが送信されるのを待っています...",
             "top_info2": "USB経由でインストールするファイルを選択し、＋ボタンを押します！",
-            "error": "USB転送がタイムアウトまたは失敗した",
+            "error": "USB転送がタイムアウトまたは失敗しました",
             "source_string": " USB経由",
             "buttons": "\ue0e2 (押す) ヘルプ    \ue0e1 (押す) キャンセル",
             "buttons2": "\ue0e0 ファイルを選択    \ue0e3 すべて選択    \ue0ef ファイルをインストール    \ue0e1 キャンセル"
