@@ -17,7 +17,7 @@
 namespace inst::ui {
     extern MainApplication *mainApp;
 
-    std::vector<std::string> languageStrings = {"English", "日本語", "Français", "Deutsch", "Italiano", "Русский"};
+    std::vector<std::string> languageStrings = {"English", "日本語", "Français", "Deutsch", "Italiano", "Русский", "中文"};
 
     optionsPage::optionsPage() : Layout::Layout() {
     		this->infoRect = Rectangle::New(0, 95, 1280, 60, COLOR("#00000080"));
@@ -100,6 +100,9 @@ namespace inst::ui {
                 return languageStrings[4];
             case 10:
                 return languageStrings[5];
+            case 6:
+            case 15:
+                return languageStrings[6];
             default:
                 return "options.language.system_language"_lang;
         }
@@ -269,6 +272,9 @@ namespace inst::ui {
                             break;
                         case 5:
                             inst::config::languageSetting = 10;
+                            break;
+                        case 6:
+                            inst::config::languageSetting = 15;
                             break;
                         default:
                             inst::config::languageSetting = 99;
