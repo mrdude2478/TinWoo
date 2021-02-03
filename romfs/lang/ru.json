@@ -4,7 +4,7 @@
             "sd": "Установка из SD-карты",
             "net": "Установка по сети",
             "usb": "Установка через USB",
-			"hdd": "Install over USB HDD",
+	    "hdd": "Установка с USB HDD",
             "sig": "Управление sig-patches",
             "set": "Настройки",
             "exit": "Выход"
@@ -15,7 +15,7 @@
 		},
 		"hdd": {
 			"title": "USB HDD",
-			"notfound": "USB HDD is not connected."
+			"notfound": "Не подключён USB HDD."
 		},
         "net": {
             "title": "Сетевое подключение недоступно",
@@ -34,7 +34,7 @@
         },
         "applet": {
             "title": "Applet Mode не поддерживается",
-            "desc": "В TinWoo Installer могут возникать проблемы когда и если он запущен в режиме апплета.\nЕсли у вас есть трудности, пожалуйста запустите приложение через установленную игру\n(зажмите R при запуске)!"
+            "desc": "В TinWoo Installer могут возникать проблемы при работе в режиме апплета.\nЕсли у вас есть трудности, пожалуйста запустите приложение через установленную игру\n(зажмите R при запуске)!"
         },
         "buttons": "\ue0e0 Выбрать    \ue0e1 Выход"
     },
@@ -82,14 +82,14 @@
         "hd": {
             "help": {
                 "title": "Help",
-                "desc": "Copy your NSP, NSZ, XCI, or XCZ files to your hard drive, browse to and\nselect the ones you want to install, then press the Plus button."
+                "desc": "Скопируйте ваши NSP, NSZ, XCI, или XCZ на ваш жёсткий диск, откройте его и\nи выберите что хотите устанавливать, затем нажмите кнопку плюс."
             },
-            "top_info": "Select the files you want to install, then press the Plus button!",
+            "top_info": "Выберите файлы для установки, после чего нажмите кнопку плюс!",
             "source_string": " from hard drive",
-            "delete_info": " installed\nDelete it from the hard drive?",
-            "delete_info_multi": " files installed successfully!\nDelete them from the hard drive?",
-            "delete_desc": "The original files aren't needed anymore after they've been installed",
-            "buttons": "\ue0e0 Select File    \ue0e3 Select All    \ue0ef Install File(s)    \ue0e2 Help    \ue0e1 Cancel"
+            "delete_info": " Установлено\nУдалить с жесткого диска?",
+            "delete_info_multi": " файлы успешно установлены!\nУдалить файлы установочные файлы с жёсткого диска?",
+            "delete_desc": "После успешной установки, оригинальные файлы больше не нужны и могут быть удалены",
+            "buttons": "\ue0e0 Выбрать файлы    \ue0e3 Выбрать всё    \ue0ef Установить    \ue0e2 Помощь    \ue0e1 Отмена"
         },
         "usb": {
             "help": {
